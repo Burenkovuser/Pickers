@@ -10,4 +10,7 @@
 
 @interface DatePickerViewController : UIViewController
 
+@property(strong, nonatomic) UIDatePicker *dataPicker;
+-(IBAction) buttonPressed;
+
 @end

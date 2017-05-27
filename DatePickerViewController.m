@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSDate *now = [NSDate date];
+    [self.dataPicker setDate:now animated:NO];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +34,17 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(void)buttonPressed {
+    NSDate *selected = [self.dataPicker date];
+    NSString *message = [NSString stringWithFormat:@"The day and time your selected is: %@", selected];
+    
+    UIAlertView * allert = [[UIAlertView alloc]
+                            initWithTitle:@"Date and Time Selected"
+                            message:message
+                            delegate:nil
+                            cancelButtonTitle:@"Yes, I did."otherButtonTitles:nil];
+    [allert show];
+    
+}
 
 @end
