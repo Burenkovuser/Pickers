@@ -36,14 +36,15 @@
 */
 -(void)buttonPressed {
     NSDate *selected = [self.dataPicker date];
-    NSString *message = [NSString stringWithFormat:@"The day and time your selected is: %@", selected];
+    NSString *message = [[NSString alloc] initWithFormat:@"The date and time you selected is: %@", selected];
     
-    UIAlertView * allert = [[UIAlertView alloc]
-                            initWithTitle:@"Date and Time Selected"
-                            message:message
-                            delegate:nil
-                            cancelButtonTitle:@"Yes, I did."otherButtonTitles:nil];
-    [allert show];
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"Date and Time Selected"
+                          message:message
+                          delegate:nil
+                          cancelButtonTitle:@"Yes, I did."
+                          otherButtonTitles:nil];
+    [alert show];
     
 }
 
