@@ -65,9 +65,33 @@
                     <view key="view" contentMode="scaleToFill" id="Dmr-ht-a0i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L2p-is-zgX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="CJq-Zp-xz5" id="aFk-dk-cym"/>
+                                    <outlet property="delegate" destination="CJq-Zp-xz5" id="bLE-9P-P30"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbl-7l-OOf">
+                                <rect key="frame" x="165" y="318" width="44" height="30"/>
+                                <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="buttonPressed" destination="CJq-Zp-xz5" eventType="touchUpInside" id="ZsH-KH-WtW"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xbl-7l-OOf" firstAttribute="centerY" secondItem="Dmr-ht-a0i" secondAttribute="centerY" id="MOv-kF-cEJ"/>
+                            <constraint firstItem="xbl-7l-OOf" firstAttribute="centerX" secondItem="Dmr-ht-a0i" secondAttribute="centerX" id="e7U-lK-h4a"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Double" image="doubleicon" id="eON-d0-DzZ"/>
+                    <connections>
+                        <outlet property="doublePicker" destination="L2p-is-zgX" id="FX1-tc-WrE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utG-vr-ylN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

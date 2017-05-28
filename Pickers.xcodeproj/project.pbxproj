@@ -70,8 +70,6 @@
 		FB2182961ED9936300ADBBCC /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
-				FB2182AE1ED994BC00ADBBCC /* DatePickerViewController.h */,
-				FB2182AF1ED994BC00ADBBCC /* DatePickerViewController.m */,
 				FB21829A1ED9936300ADBBCC /* AppDelegate.h */,
 				FB21829B1ED9936300ADBBCC /* AppDelegate.m */,
 				FB2182A01ED9936300ADBBCC /* Main.storyboard */,
@@ -79,6 +77,8 @@
 				FB2182A51ED9936300ADBBCC /* LaunchScreen.storyboard */,
 				FB2182A81ED9936300ADBBCC /* Info.plist */,
 				FB2182971ED9936300ADBBCC /* Supporting Files */,
+				FB2182AE1ED994BC00ADBBCC /* DatePickerViewController.h */,
+				FB2182AF1ED994BC00ADBBCC /* DatePickerViewController.m */,
 				FB2182B11ED994FB00ADBBCC /* SingleComponentPickerViewController.h */,
 				FB2182B21ED994FB00ADBBCC /* SingleComponentPickerViewController.m */,
 				FB2182B41ED9955800ADBBCC /* DoubleComponentPickerViewController.h */,
@@ -333,6 +333,7 @@
 				FB2182AD1ED9936300ADBBCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

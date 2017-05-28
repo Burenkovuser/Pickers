@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSDate *now = [NSDate date];
     [self.dataPicker setDate:now animated:NO];
+ 
 }
 
 - (void)didReceiveMemoryWarning {
