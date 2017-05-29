@@ -16,8 +16,8 @@
 		FB2182B31ED994FB00ADBBCC /* SingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2182B21ED994FB00ADBBCC /* SingleComponentPickerViewController.m */; };
 		FB2182B61ED9955800ADBBCC /* DoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2182B51ED9955800ADBBCC /* DoubleComponentPickerViewController.m */; };
 		FB2182B91ED9958B00ADBBCC /* DependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2182B81ED9958B00ADBBCC /* DependentComponentPickerViewController.m */; };
-		FB2182BC1ED995B300ADBBCC /* CustomPickerViewController..m in Sources */ = {isa = PBXBuildFile; fileRef = FB2182BB1ED995B300ADBBCC /* CustomPickerViewController..m */; };
 		FBDAB70D1EDBE16200ACAC9D /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBDAB70C1EDBE16200ACAC9D /* statedictionary.plist */; };
+		FBDAB7101EDC299100ACAC9D /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDAB70F1EDC299100ACAC9D /* CustomPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		FB2182B51ED9955800ADBBCC /* DoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleComponentPickerViewController.m; sourceTree = "<group>"; };
 		FB2182B71ED9958B00ADBBCC /* DependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DependentComponentPickerViewController.h; sourceTree = "<group>"; };
 		FB2182B81ED9958B00ADBBCC /* DependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DependentComponentPickerViewController.m; sourceTree = "<group>"; };
-		FB2182BA1ED995B300ADBBCC /* CustomPickerViewController..h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController..h; sourceTree = "<group>"; };
-		FB2182BB1ED995B300ADBBCC /* CustomPickerViewController..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController..m; sourceTree = "<group>"; };
 		FBDAB70C1EDBE16200ACAC9D /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		FBDAB70E1EDC299100ACAC9D /* CustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPickerViewController.h; path = ../CustomPickerViewController.h; sourceTree = "<group>"; };
+		FBDAB70F1EDC299100ACAC9D /* CustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPickerViewController.m; path = ../CustomPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 				FB2182B51ED9955800ADBBCC /* DoubleComponentPickerViewController.m */,
 				FB2182B71ED9958B00ADBBCC /* DependentComponentPickerViewController.h */,
 				FB2182B81ED9958B00ADBBCC /* DependentComponentPickerViewController.m */,
-				FB2182BA1ED995B300ADBBCC /* CustomPickerViewController..h */,
-				FB2182BB1ED995B300ADBBCC /* CustomPickerViewController..m */,
+				FBDAB70E1EDC299100ACAC9D /* CustomPickerViewController.h */,
+				FBDAB70F1EDC299100ACAC9D /* CustomPickerViewController.m */,
 				FBDAB70C1EDBE16200ACAC9D /* statedictionary.plist */,
 			);
 			path = Pickers;
@@ -174,13 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2182BC1ED995B300ADBBCC /* CustomPickerViewController..m in Sources */,
 				FB21829C1ED9936300ADBBCC /* AppDelegate.m in Sources */,
 				FB2182B01ED994BC00ADBBCC /* DatePickerViewController.m in Sources */,
 				FB2182B31ED994FB00ADBBCC /* SingleComponentPickerViewController.m in Sources */,
 				FB2182B61ED9955800ADBBCC /* DoubleComponentPickerViewController.m in Sources */,
 				FB2182B91ED9958B00ADBBCC /* DependentComponentPickerViewController.m in Sources */,
 				FB2182991ED9936300ADBBCC /* main.m in Sources */,
+				FBDAB7101EDC299100ACAC9D /* CustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
